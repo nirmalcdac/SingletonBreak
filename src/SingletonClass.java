@@ -23,7 +23,7 @@ public class SingletonClass extends CloneClass implements Serializable {
 
     public static SingletonClass instance;
 
-    public static SingletonClass getInstance()  {
+    public static SingletonClass getInstance() {
         if (instance == null) {
             instance = new SingletonClass();
         }
